@@ -1,0 +1,25 @@
+{
+    "name": "cracksalad/imagick-ide-helper",
+    "version": "1.0.0",
+    "type": "library",
+    "description": "IDE help files for PHP's Imagick extension.",
+    "keywords": [
+        "ide-helper",
+        "imagick"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Wahlen",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-0": { 
+            "Imagick": "src/"
+        }
+    }
+}
