@@ -1,12 +1,8 @@
 <?php
-/**
- * auto generated file by PHPExtensionStubGenerator
- */
-/**
- * auto generated file by PHPExtensionStubGenerator
- */
-class ImagickPixelIteratorException extends Exception
-{
 
+/**
+ * @author Andreas Wahlen
+ */
+class ImagickPixelIteratorException extends Exception {
 
 }

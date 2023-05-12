@@ -1766,7 +1766,7 @@ class Imagick {
   public function getResolution(): array {}
   
   /**
-   * @return ImageType
+   * @psalm-return self::IMAGE_TYPE_*
    */
   public function getType(): int {}
   
