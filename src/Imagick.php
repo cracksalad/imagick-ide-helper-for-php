@@ -200,6 +200,8 @@ class Imagick {
   public const COMPRESSION_DWAA = 24;
   public const COMPRESSION_DWAB = 25;
   public const COMPRESSION_BC7 = 26;
+  public const COMPRESSION_BC5 = 27;
+  public const COMPRESSION_LERC = 28;
   
   public const PAINT_POINT = 1;
   public const PAINT_REPLACE = 2;
@@ -538,20 +540,21 @@ class Imagick {
   public const LAYERMETHOD_FLATTEN = 14;
   public const LAYERMETHOD_MOSAIC = 15;
   
-  public const ALPHACHANNEL_ACTIVATE = 1;
-  public const ALPHACHANNEL_ON = 10;
-  public const ALPHACHANNEL_SET = 13;
   public const ALPHACHANNEL_UNDEFINED = 0;
-  public const ALPHACHANNEL_DISCRETE = 6;
+  public const ALPHACHANNEL_ACTIVATE = 1;
+  public const ALPHACHANNEL_ASSOCIATE = 2;
   public const ALPHACHANNEL_COPY = 4;
   public const ALPHACHANNEL_DEACTIVATE = 5;
+  public const ALPHACHANNEL_DISCRETE = 6;
+  public const ALPHACHANNEL_DISSOCIATE = 7;
   public const ALPHACHANNEL_EXTRACT = 8;
   public const ALPHACHANNEL_OFF = 9;
+  public const ALPHACHANNEL_ON = 10;
   public const ALPHACHANNEL_OPAQUE = 11;
+  public const ALPHACHANNEL_SET = 13;
   public const ALPHACHANNEL_SHAPE = 14;
   public const ALPHACHANNEL_TRANSPARENT = 15;
-  public const ALPHACHANNEL_ASSOCIATE = 2;
-  public const ALPHACHANNEL_DISSOCIATE = 7;
+  public const ALPHACHANNEL_OFF_IF_OPAQUE = 16;
   
   public const SPARSECOLORMETHOD_UNDEFINED = 0;
   public const SPARSECOLORMETHOD_BARYCENTRIC = 1;
@@ -648,8 +651,9 @@ class Imagick {
   public const KERNEL_USER_DEFINED = 37;
   public const KERNEL_BINOMIAL = 7;
   
-  public const DIRECTION_LEFT_TO_RIGHT = 2;
   public const DIRECTION_RIGHT_TO_LEFT = 1;
+  public const DIRECTION_LEFT_TO_RIGHT = 2;
+  public const DIRECTION_TOP_TO_BOTTOM = 3;
   
   public const NORMALIZE_KERNEL_NONE = 0;
   public const NORMALIZE_KERNEL_VALUE = 8192;
