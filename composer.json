@@ -1,6 +1,6 @@
 {
     "name": "cracksalad/imagick-ide-helper",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "type": "library",
     "description": "IDE help files for PHP's Imagick extension.",
     "keywords": [

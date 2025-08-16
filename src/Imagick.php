@@ -15,8 +15,8 @@ class Imagick {
   public const COLOR_ALPHA = 18;
   public const COLOR_FUZZ = 19;
   
-  public const IMAGICK_EXTNUM = 30700;
-  public const IMAGICK_EXTVER = '3.7.0';
+  public const IMAGICK_EXTNUM = 30800;
+  public const IMAGICK_EXTVER = '3.8.0';
   
   public const QUANTUM_RANGE = 65535;
   public const USE_ZEND_MM = 0;
@@ -496,12 +496,15 @@ class Imagick {
   public const LAYERMETHOD_COMPAREOVERLAY = 4;
   public const LAYERMETHOD_DISPOSE = 5;
   public const LAYERMETHOD_OPTIMIZE = 6;
+  public const LAYERMETHOD_OPTIMIZEIMAGE = 7;
   public const LAYERMETHOD_OPTIMIZEPLUS = 8;
   public const LAYERMETHOD_OPTIMIZETRANS = 9;
-  public const LAYERMETHOD_COMPOSITE = 12;
-  public const LAYERMETHOD_OPTIMIZEIMAGE = 7;
   public const LAYERMETHOD_REMOVEDUPS = 10;
   public const LAYERMETHOD_REMOVEZERO = 11;
+  public const LAYERMETHOD_COMPOSITE = 12;
+  public const LAYERMETHOD_MERGE = 13;
+  public const LAYERMETHOD_FLATTEN = 14;
+  public const LAYERMETHOD_MOSAIC = 15;
   public const LAYERMETHOD_TRIMBOUNDS = 16;
   
   public const ORIENTATION_UNDEFINED = 0;
@@ -536,13 +539,10 @@ class Imagick {
   public const DISTORTION_CYLINDER2PLANE = 12;
   public const DISTORTION_PLANE2CYLINDER = 13;
   
-  public const LAYERMETHOD_MERGE = 13;
-  public const LAYERMETHOD_FLATTEN = 14;
-  public const LAYERMETHOD_MOSAIC = 15;
-  
   public const ALPHACHANNEL_UNDEFINED = 0;
   public const ALPHACHANNEL_ACTIVATE = 1;
   public const ALPHACHANNEL_ASSOCIATE = 2;
+  public const ALPHACHANNEL_BACKGROUND = 3;
   public const ALPHACHANNEL_COPY = 4;
   public const ALPHACHANNEL_DEACTIVATE = 5;
   public const ALPHACHANNEL_DISCRETE = 6;
@@ -551,6 +551,7 @@ class Imagick {
   public const ALPHACHANNEL_OFF = 9;
   public const ALPHACHANNEL_ON = 10;
   public const ALPHACHANNEL_OPAQUE = 11;
+  public const ALPHACHANNEL_REMOVE = 12;
   public const ALPHACHANNEL_SET = 13;
   public const ALPHACHANNEL_SHAPE = 14;
   public const ALPHACHANNEL_TRANSPARENT = 15;
@@ -575,9 +576,6 @@ class Imagick {
   public const FUNCTION_ARCTAN = 2;
   public const FUNCTION_POLYNOMIAL = 3;
   public const FUNCTION_SINUSOID = 4;
-  
-  public const ALPHACHANNEL_BACKGROUND = 3;
-  public const ALPHACHANNEL_REMOVE = 12;
   
   public const STATISTIC_GRADIENT = 1;
   public const STATISTIC_MAXIMUM = 2;
